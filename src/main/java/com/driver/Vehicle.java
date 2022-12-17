@@ -2,6 +2,10 @@ package com.driver;
 
 public class Vehicle {
 
+    public String getName() {
+        return name;
+    }
+
     private String name;
 
     public int getCurrentSpeed() {
